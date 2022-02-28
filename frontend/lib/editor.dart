@@ -69,13 +69,13 @@ class EditorWidget extends StatefulWidget {
     State<EditorWidget> createState() => EditorState();
 }
 
-//TODO: move CallIntent and CallAction into their own file
+//TODO(jpm): move CallIntent and CallAction into their own file
 class CallIntent extends Intent {
     final dynamic callable;
     const CallIntent(this.callable);
 }
 
-//TODO: move CallIntent and CallAction into their own file
+//TODO(jpm): move CallIntent and CallAction into their own file
 class CallAction extends Action {
     @override
     Object invoke(covariant Intent intent) {
